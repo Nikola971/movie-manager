@@ -1,0 +1,33 @@
+/* MovieList.module.css */
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-card {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.movie-details h2 {
+  margin-top: 0;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
